@@ -1,0 +1,171 @@
+body {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	background-size: cover;
+	background-color: rgb(255,255,255);	
+}
+
+#logo {
+	opacity: 0.5;
+	margin-top: 10px;
+}
+
+#header {
+	opacity: 0.75;
+	padding-left: 100px;
+	margin-top: 10px;
+}
+
+#address {
+	text-align: right;
+	padding-bottom: 10px;
+	font-size: 1.1em;
+	margin-right: 5px;
+	color: 
+}
+
+nav {
+	background-color: black;
+	opacity:0.75;
+	border-radius: 10px;
+	
+	font-size: 1.5em;
+	margin-top: 120px;
+	
+}
+
+.table {
+	display: table;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+ul#horzontal-list {
+	min-width: 1700px;
+	list-style: none;
+	padding-top: 20px;
+	
+}
+
+.nav a:link  {
+	text-decoration:none;
+	color:white;
+}
+.nav a:visited {
+	text-decoration: none;
+	color:white;
+}
+
+ul#horizontal-list li {
+	
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+	
+}
+
+.jumbotron {
+	margin-left: 30px;
+	margin-top: 30px;
+	border-style: solid;
+	border-color: rgb(80,80,80);
+	
+}
+
+#about {
+	padding-left: 850px;
+	margin-right: 50px;
+}
+
+#info {
+	font-size: 1.3em;
+	margin-right: 50px;
+}
+
+.highlighted {
+	margin-left: 30px;
+	margin-top: 30px;
+	border-color: white;
+	border-style: solid;
+}
+
+#overhaulimg {
+	
+}
+
+#warrantyacc {
+	float: left;
+	margin-left: 40px;
+	padding-right: 40px;
+	padding-left: 40px;
+	padding-top: 20px;
+	border-style: ridge;
+	border-radius: 5px;
+	border-color: gray;	
+	background-color: gray;
+	display: inline;
+	
+}
+
+.accordion {
+	border-style: ridge;
+	border-radius: 5px;
+	border-color: maroon;
+	background-color: rgb(235,250,250);
+	width:360px;
+	
+}
+
+li{
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+#OHli {
+	padding-left: 5px;
+}
+#content {
+	
+}
+
+.TrailerSlideshow {
+	padding: 0;
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+#trailerhead {
+	padding-left: 850px;
+	margin-right: 50px;
+}
+
+#trailerinfo {
+	font-size: 1.3em;
+	margin-right: 50px;
+}
+
+form {
+	padding-left: 850px;
+	
+}
+
+.servicelink {
+	color: black;
+}

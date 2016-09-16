@@ -17,10 +17,10 @@ $(document).ready(function() {
 	});
 	
 	//Bold the shingle logos//
-	$('#header').mouseenter(function() {
+	$('#shingle').mouseenter(function() {
 		$(this).fadeTo('fast', 0.9);
 	});
-	$('#header').mouseleave(function() {
+	$('#shingle').mouseleave(function() {
 		$(this).fadeTo('fast', 0.5);
 	});
 	
@@ -37,6 +37,7 @@ $(document).ready(function() {
 		$('#warrantyacc').accordion();
 	});
 	
+	//Trailer Slideshow//
 	var slideIndex = 0;
 	showSlides();
 
