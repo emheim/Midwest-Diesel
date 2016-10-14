@@ -25,9 +25,8 @@
 				<li class=nav><a href='../Service/Index.html'>Service</a></li> 
 				<li class=nav><a href='../Dyno/Index.html'>Dyno</a></li> 
 				<li class=nav><a href='../Trailers/Index.html'>Trailers</a></li> 
-				<li class=nav>Trucks</li> 
-				<li class=nav>Contact</li> 
-				<li class=nav>Schedule</li>
+				<li class=nav><a href='../Trucks/Index.html'>Trucks</a></li>
+				<li class=nav><a href='../Contact/Index.html'>Contact</a></li> 
 			</ul>
 		</div>
 	</nav>
@@ -70,17 +69,17 @@
 		</div>
 	</div>
 	
-		<form action="trailercontact.php" method='post'>
+		<form action="trailercontact.php" method='post' id='trailerform'>
 			Your name<br>
-			<input type='text' name='cf_name'><br>
+			<input type='text' name='cf_name' style="width:200px;height:25px;"><br>
 			Company name<br>
-			<input type='text' name='cf_coname'><br>
+			<input type='text' name='cf_coname' style="width:200px;height:25px;"><br>
 			Contact phone<br>
-			<input type='text' name='cf_phone'><br>
+			<input type='text' name='cf_phone' style="width:200px;height:25px;"><br>
 			Your email<br>
-			<input type='text' name='cf_email'><br>
+			<input type='text' name='cf_email'style="width:200px;height:25px;"><br>
 			Message<br>
-			<textarea name='cf_message'></textarea><br><br>
+			<textarea name='cf_message'style="width:400px;height:75px;"></textarea><br><br>
 			<input type='submit' value='Send'>
 			<input type='reset' value='Clear'>
 		</form>
