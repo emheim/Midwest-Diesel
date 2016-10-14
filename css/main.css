@@ -16,15 +16,16 @@ body {
 #body {
 	padding: 10px;
 	padding-bottom: 60px;
+	min-height:900px;
 }
 
 #logo {
-	opacity: 0.5;
+	opacity: 1;
 	margin-top: 10px;
 }
 
 #header {
-	opacity: 0.75;
+	opacity: 1;
 	padding-left: 10px;
 	padding-right: 10px;
 	margin-top: 10px;
@@ -38,7 +39,7 @@ body {
 	text-align: right;
 	padding-bottom: 10px;
 	font-size: 1.1em;
-	margin-right: 5px;
+	margin-right: 1%;
 	color: 
 }
 
@@ -47,15 +48,16 @@ nav {
 	opacity:0.75;
 	border-radius: 10px;
 	
-	font-size: 1.5em;
+	font-size: 1.3em;
 	margin-top: 120px;
 	
 }
 
 .table {
 	display: table;
-	margin-left: 15%;
-	margin-right: 15%;
+	
+	margin-left: auto;
+	margin-right: auto;
 }
 
 ul#horzontal-list {
@@ -93,6 +95,13 @@ ul#horizontal-list li {
 	
 }
 
+#contactform {
+	font-size: 1.2em;
+	
+	margin-left: 5%;
+	padding-bottom: 100px;
+}
+
 #about {
 	padding-left: 850px;
 	margin-right: 50px;
@@ -101,7 +110,7 @@ ul#horizontal-list li {
 #info {
 	font-size: 1.3em;
 	margin-right: 50px;
-	padding-bottom: 60px;
+	padding-bottom: 30px;
 }
 
 .highlighted {
@@ -186,7 +195,7 @@ li{
 	margin-right: 50px;
 }
 
-form {
+#trailerform {
 	padding-left: 850px;
 	
 }

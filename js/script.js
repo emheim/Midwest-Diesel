@@ -1,28 +1,14 @@
 $(document).ready(function() {
 	
 	//highlight the pictures//
-	$("#jumbotron").mouseenter(function() {
+	$(".jumbotron").mouseenter(function() {
 		$(this).addClass('highlighted');
 	});
-	$("#jumbotron").mouseleave(function() {
+	$(".jumbotron").mouseleave(function() {
 		$(this).removeClass('highlighted');
 	});
 	
-	//Bold the company logo//
-	$('#logo').mouseenter(function() {
-		$(this).fadeTo('fast', 0.9);
-	});
-	$('#logo').mouseleave(function() {
-		$(this).fadeTo('fast', 0.5);
-	});
-	
-	//Bold the shingle logos//
-	$('#shingle').mouseenter(function() {
-		$(this).fadeTo('fast', 0.9);
-	});
-	$('#shingle').mouseleave(function() {
-		$(this).fadeTo('fast', 0.5);
-	});
+
 	
 	//Animate navigation bar//
 	$('.nav').mouseenter(function() {
