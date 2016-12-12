@@ -13,12 +13,8 @@ body {
 	position: relative;
 	margin-bottom: -60px;
 }
-#body {
-	padding: 10px;
-	padding-bottom: 60px;
-	min-height:900px;
-}
 
+/*Header elements*/
 #logo {
 	opacity: 1;
 	margin-top: 10px;
@@ -83,6 +79,16 @@ ul#horizontal-list li {
 	padding-right: 20px;
 	
 }
+
+/*Main body elements*/
+
+#body {
+	padding: 10px;
+	padding-bottom: 60px;
+	min-height:900px;
+}
+
+
 
 #jumbotron {
 	margin-left: 30px;
@@ -203,6 +209,8 @@ li{
 .servicelink {
 	color: black;
 }
+
+/*Footer elements*/
 
 #footer {
 	position: absolute;

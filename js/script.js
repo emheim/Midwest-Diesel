@@ -12,10 +12,10 @@ $(document).ready(function() {
 	
 	//Animate navigation bar//
 	$('.nav').mouseenter(function() {
-		$(this).animate({fontSize: '1.1em'}, 'fast')
+		$(this).animate({fontSize: '1.1em'}, 'fast');
 	});
 	$('.nav').mouseleave(function() {
-		$(this).animate({fontSize: '1.0em'}, 'fast')
+		$(this).animate({fontSize: '1.0em'}, 'fast');
 	});
 	
 	//Accordion//
