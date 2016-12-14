@@ -23,7 +23,7 @@ $(document).ready(function() {
 		$('#warrantyacc').accordion();
 	});
 	
-	//Trailer Slideshow//
+	//Slideshow//
 	var slideIndex = 0;
 	showSlides();
 

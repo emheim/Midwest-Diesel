@@ -14,7 +14,7 @@
 	
 	
 	<div id='body' style='min-height:900px;'>
-		<img id='jumbotron' class='jumbotron' style='float: left' src='Images\img_2291.jpg' width='750px' height='470px'>
+		<img id='jumbotron' class='jumbotron' style='float: left' src='Images\IMG_2291.jpg' width='750px' height='470px'>
 
 	<div id=about><h1>About Us</h1>
 		<div id=info>
