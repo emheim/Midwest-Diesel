@@ -1,13 +1,6 @@
 $(document).ready(function() {
 	
-	//highlight the pictures//
-	$(".jumbotron").mouseenter(function() {
-		$(this).addClass('highlighted');
-	});
-	$(".jumbotron").mouseleave(function() {
-		$(this).removeClass('highlighted');
-	});
-	
+
 
 	
 	//Animate navigation bar//
@@ -18,12 +11,9 @@ $(document).ready(function() {
 		$(this).animate({fontSize: '1.0em'}, 'fast');
 	});
 	
-	//Accordion//
-	$(function() {
-		$('#warrantyacc').accordion();
-	});
 	
-	//Slideshow//
+	
+	//Slideshows//
 	var slideIndex = 0;
 	showSlides();
 

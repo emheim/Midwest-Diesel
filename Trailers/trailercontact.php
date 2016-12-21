@@ -20,7 +20,7 @@ if ($mail_status)  { ?>
 	<script language="javascript" type="text/javascript">
 	//Print a message
 	alert('Thank you for the message, we will be in contact with you shortly');
-	window.location = 'index.html';
+	window.location = 'Index.html';
 	</script>
 	<?php
 	}
@@ -29,7 +29,7 @@ else { ?>
 	<script language="javascript" type="text/javascript">
 	//Print a message
 	alert('Message failed, Please try again');
-	window.location = 'index.html';
+	window.location = 'Index.html';
 	</script>
 	<?php
 	}

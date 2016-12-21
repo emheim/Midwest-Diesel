@@ -1,0 +1,117 @@
+.drop-nav {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.drop-nav li {
+	display: block;
+	position: relative;
+	float: left;
+	border: 1px solid #000;
+}
+
+li .drop {
+	display: none;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.drop-nav li a {
+	display: block;
+	background: #000;
+	padding: 5px 10px 5px 10px;
+	text-decoration: none;
+	white-space: nowrap;
+	color: #fff;
+}
+
+.drop-nav li a:hover {
+	background: rgb(179,27,77);
+}
+
+li:hover .drop {
+	display: block;
+	position: absolute;
+}
+
+li:hover li {
+	float: none;
+}
+
+li:hover a {
+	background: rgb(179,27,77);
+}
+
+li:hover li a:hover {
+	background: #000;    
+}
+
+#drop-nav li .drop li {
+	border-top: 0px;
+
+
+}  
+
+#drop-nav {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	
+}
+
+#navbar {
+	position: relative;
+	font-size: 1.3em;
+	margin-top: 120px;
+	background-color: black;
+	opacity: .75;
+	border-radius: 10px;
+	width: 90%;
+	height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+
+
+
+#logo {
+	opacity: 1;
+	margin-top: .8%;
+}
+
+#header {
+	opacity: 1;
+	padding-left: .1%;
+	padding-right: .1%;
+	margin-top: .8%;
+	
+}
+
+#shingle {
+	padding-left: 5%;
+}
+
+#address {
+	text-align: right;
+	padding-bottom: .7%;
+	font-size: 1em;
+	margin-right: 1%;
+	color: 
+}
+
+
+
+
+
+
+
+

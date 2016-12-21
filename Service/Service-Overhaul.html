@@ -10,39 +10,64 @@
 
 <body>
 <div id='container'>
-	<div id='header'>
-		<img id='logo' style='float: left' src="..\Images\mwd_service_logo2.png" width='20%' height='100px'>
+		<div id='header'>
+		<a href="Index.html"><img id='logo' style='float: left' src="..\Images\mwd_service_logo2.png" width='20%' height='100px'></a>
 		<img id='shingle' style='float: left' src="..\Images\Logo Header.jpg" width='50% height='100px'> 
 		<div id='address'>
 			<p style='float: right'>8284 West 35W Service Drive NE<br>Minneapolis, MN 55449<br>(763) 780-8533</p>
 		</div>
-				
-		<nav style='color:white'>
-			<div class="table">
-				<ul id="horizontal-list" style="list-style:none">
-					<li class=nav><a href='../Index.html'>Home</a></li> 
-				<li class=nav><a href='../Parts/Index.html'>Parts</a></li> 
-				<li class=nav><a href='../Service/Index.html'>Service</a></li> 
-				<li class=nav><a href='../Dyno/Index.html'>Dyno</a></li> 
-				<li class=nav><a href='../Trailers/Index.html'>Trailers</a></li> 
-				<li class=nav><a href='../Trucks/Index.html'>Trucks</a></li>
-				<li class=nav><a href='../Contact/Index.html'>Contact</a></li> 
+			</div>	
+	</div>
+			
+			<div id='navbar'>
+			
+				<ul class='drop-nav' id="drop-nav">
+					<li><a href='../Index.html'>Home</a></li> 
+					<li><a href='../Parts/Index.html'>Parts</a></li> 
+					<li><a href='../Service/Index.html'>Service</a>
+						<ul class='drop'>
+							<li><a href='../Service/Index.html'>Service</a></li>
+							<li><a href='../Service/Service-Overhaul.html'>Overhauls</a></li>
+							<li><a href='../Service/Service-DOT.html'>DOT Inspections</a></li>
+						</ul>
+					</li>
+					<li><a href='../Dyno/Index.html'>Dyno</a></li> 
+					<li><a href='../Trailers/Index.html'>Trailers</a>
+						<ul class='drop'>
+							<li><a href='../Trailers/Index.html'>Trailers</a></li>
+							<li><a href='../Trailers/Stock-Trailers.html'>Trailer Inventory</a></li>
+						</ul>
+					</li>
+					<li><a href='../Trucks/Index.html'>Trucks</a></li>
+					<li><a href='../Contact/Index.html'>Contact</a>
+						<ul class='drop'>
+							<li><a href='../Contact/Index.html'>Contact Us</a></li>
+						</ul>
+					</li>
+					
 				</ul>
 			</div>
-		</nav>
+			
+			
 	</div>
 	<div id='body'>
-		<img id='jumbotron' style='float: left' src='..\Images\Donny Truck.jpg' width='750px' height='470px'>
-		<h1 id=about>Engine Overhauls</h1>
-		<p id=about>All of our overhauls come with standard OEM warranties.  So once you leave here, you are covered across the country.  See the menu on the side of the page for 
+		<img id='jumbotron' style='float: left' src='..\Images\Donny Truck.jpg' width='750px' height='470px' alt='Engine Overhaul'>
+		<div id='trailerhead'>
+			
+			<img id='cumminslogo' src='..\Images\Cummins_Logo.jpg' alt='Cummins'>
+			<img id='catlogo'  src='..\Images\Cat_Logo.jpg' alt='Caterpillar'>
+			<img id='detroitlogo' src='..\Images\Detroit_Logo.jpg' alt='Detroit Diesel'>
+		</div>
+		<h1 id='about'>Engine Overhauls</h1>
+		<p id='about'>Midwest Diesel offers complete engine overhauls for Caterpillar, Cummins, and Detroit engines.  All of our overhauls come with standard OEM warranties.  So once you leave here, you are covered across the country.  See the menu on the side of the page for 
 			warranty options for different engine types</p>
-		<P id=about>We would love to overhaul your engine.  Here are just a few of the many benefits having your overhaul done at Midwest Diesel:</p>
-			<ul id=about>
-				<li id=OHli>Techs certified and trained by the manufacturer</li>
-				<li id=OHli>OEM warranty.  Extended warranties available in most cases!</li>
+		<P id='about'>We would love to overhaul your engine.  Here are just a few of the many benefits having your overhaul done at Midwest Diesel:</p>
+			<ul id='about'>
+				<li id=OHli>Our techs are certified and trained by the manufacturer</li>
+				<li id=OHli>Our overhauls come with OEM warranty.  Extended warranties available in most cases!</li>
 				<li id=OHli>Engines are Dyno tested and broke in at our shop</li>
 				<li id=OHli>Keep your truck on the road longer</li>
-				<li id=OHli>More benefits!</li>
+				<li id=OHli>Both in-frame and out of frame options available</li>
 				<li id=OHli>More benefits!</li>
 				<li id=OHli>More benefits!</li>
 			</ul>
@@ -50,7 +75,7 @@
 		<p id=about>Fill out the form below for more information and to get an estimate</p>
 		
 		<div id="warrantyacc">
-			<h2 class=accordion>Caterpillar</h2>
+			<h2 class='accordion'>Caterpillar</h2>
 			<div class="acccontent" style="paddding:5px;">
 				<ul>
 					<li>All overhauls come with 2 year unlimited mile warranty.</li>  
@@ -64,7 +89,7 @@
 					<li>Extended warranty available.</li>
 				</ul>
 			</div>
-			<h2 class=accordion>Detroit</h2>
+			<h2 class='accordion'>Detroit</h2>
 			<div class="acccontent" style="paddding:5px;">
 				<ul>
 					<li>Detroit Warranty blah blah blah</li>
@@ -76,7 +101,7 @@
 	<div id='footer'>
 		<footer>
 			<p id='footertext'>&copyCopyright 2016 Midwest Diesel Service Inc, All Rights Reserved.</p>
-			<a href='https://www.facebook.com/Midwest-Diesel-Service-858550757491313/'><img  id='facebook' src='..\images\facebook.png' width='40px' height='40px'></a>
+			<a href='https://www.facebook.com/Midwest-Diesel-Service-858550757491313/'><img id='facebook' src='..\Images\facebook.png' width='40px' height='40px'></a>
 			
 		</footer>
 	</div>
